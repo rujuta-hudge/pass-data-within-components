@@ -1,0 +1,23 @@
+<div>
+    <h1 class="text-center">Child Component</h1>
+</div>
+<div class="container">
+    <table class="table table-striped">
+        <thead>
+            <tr>
+                <th>Name</th>
+                <th>Address</th>
+                <th>Age</th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr *ngFor="let arr of getMyArray">
+                <td>{{arr.name|uppercase}}</td>
+                <td>{{arr.address|uppercase}}</td>
+                <td>{{arr.age}}</td>
+            </tr>
+        </tbody>
+    </table>
+</div>
+
+<button class="btn btn-danger" id="deletebutton">Delete</button>
