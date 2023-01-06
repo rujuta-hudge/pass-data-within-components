@@ -21,7 +21,6 @@ export class AppComponent {
   });
 
   formdata: {
-
     name: string;
     address: string;
     age: string;

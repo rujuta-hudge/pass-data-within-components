@@ -15,6 +15,5 @@ export class ChildComponent implements OnInit {
 
   ngOnInit(): void {
     console.log(this.getMyArray);
-
   }
 }
